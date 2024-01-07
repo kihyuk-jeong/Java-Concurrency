@@ -1,5 +1,10 @@
 package io.concurrency.chapter01.exam02;
 
+/**
+ * Thread 1, Thread 2, Thread 3이 번갈아가면서 실행되는 것을 확인할 수 있다.
+ * 또한 Thread 1 이 먼저 실행된 경우, 이후 Thread 2, Thread 3 중 하나가 실행되는데, 이 때 컨텍스트 스위칭이 발생한다.
+ */
+
 public class ContextSwitchExample {
     public static void main(String[] args) {
 
